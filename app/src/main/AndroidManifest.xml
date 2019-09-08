@@ -25,7 +25,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="${launcherName}"
+        android:label="@string/launcher_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.TwaSplash">
 
@@ -34,7 +34,7 @@
             android:value="${assetStatements}" />
 
         <activity android:name="android.support.customtabs.trusted.LauncherActivity"
-            android:label="${launcherName}">
+            android:label="@string/launcher_name">
             <meta-data android:name="android.support.customtabs.trusted.DEFAULT_URL"
                 android:value="${defaultUrl}" />
 
